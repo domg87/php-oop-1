@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+   padding: 30px;
+   
+}
+
+.list, .list-user {    
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.list h2 {
+    padding: 0 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.list-user p {
+    padding: 10px 20px;
+    font-size: 20px;
+}
